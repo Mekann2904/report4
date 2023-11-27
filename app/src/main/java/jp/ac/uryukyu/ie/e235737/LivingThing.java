@@ -40,6 +40,12 @@ public class LivingThing {
         this.setHitPoint(hitPoint);
     }
 
+    public int getAttack(){
+        return attack;
+    }
+    public void setAttack(){
+        this.attack=attack;
+    } 
 
     public void attack(LivingThing opponent) {
         if (!dead) {
